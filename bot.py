@@ -136,7 +136,6 @@ class SimpleProxyBot:
                 if success:
                     working += 1
                     working_proxies.append(proxy)
-                    await self.send_to_group(proxy)
                 else:
                     failed += 1
 
